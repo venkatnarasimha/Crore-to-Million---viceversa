@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  background-color: cornsilk;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  padding: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .content {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    padding: 50px;
+  }
+}
+
+.fieldset {
+  padding: 20px;
+}
+
+.input {
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bold;
+}
